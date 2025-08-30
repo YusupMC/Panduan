@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panduan SIREKAP</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #001a66; /* warna biru gelap background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: linear-gradient(180deg, #4facfe, #3c8ce7); 
+      border-radius: 20px;
+      width: 350px;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .card img.logo {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .card h2 {
+      margin: 10px 0 5px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin: 5px 0 15px;
+    }
+
+    .icon-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: transparent;
+      border: 1px solid white;
+      border-radius: 25px;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      margin: 10px 0;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .icon-btn:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .icon-circle {
+      background: white;
+      color: #3c8ce7;
+      border-radius: 50%;
+      padding: 8px;
+      margin-right: 10px;
+      font-size: 14px;
+    }
+
+    .top-icon, .share-icon {
+      position: absolute;
+      top: 15px;
+      width: 30px;
+      height: 30px;
+      background: rgba(255,255,255,0.6);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .top-icon {
+      left: 15px;
+    }
+
+    .share-icon {
+      right: 15px;
+    }
+
+    .social-icon {
+      font-size: 25px;
+      margin: 10px 0;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="top-icon">*</div>
+    <div class="share-icon">⤴</div>
+    <img src="https://via.placeholder.com/90" alt="Logo" class="logo">
+    <h2>SIREKAP</h2>
+    <p>Sistem Informasi Reformasi Kearsipan Kecamatan Pangkalan <br> Dibuat Oleh: Yusup Mad Cani, S.Kom.</p>
+       
+    <a href="#" class="icon-btn">
+      <span class="icon-circle">📝</span> Presentasi
+    </a>
+    <a href="#" class="icon-btn">
+      <span class="icon-circle">📝</span> Manual Book
+    </a>
+    <a href="https://sirekap.yusupmadcani.my.id" class="icon-btn">
+      <span class="icon-circle">🌐</span> Website SIREKAP
+    </a>
+  </div>
+</body>
+</html>
